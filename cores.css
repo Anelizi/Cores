@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #ffff;
+}
+
+.container{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:  100vh;
+}
+
+.verde{
+    background-color: rgb(4, 233, 4);
+    width: 100vw;
+    height: 20vh;
+    margin-bottom: 30px;
+}
+
+.amarelo{
+    display: flex;
+    flex-shrink: row;
+    background-color: rgba(243, 243, 0, 0.89);
+    width: 31vw;
+    height: 50vh;
+}
+
+.vermelho{
+    display: flex;
+    background-color: rgba(235, 25, 25, 0.938);
+    width: 31vw;
+    height: 50vh;
+}
+
+.laranja{
+    background-color: rgb(238, 71, 10);
+    width: 65.5vw;
+    height: 20vh;
+    position: absolute;
+    top: 80%;
+}
+
+.azul{
+    background-color: rgb(8, 8, 238);
+    width: 31vw;
+    height: 150%;
+}
+
+.inside{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.inside p{
+    display: flex;
+    align-items: center;
+    width: calc(50% - 70px);
+    background-color: #ffff;
+    margin: 5px;
+    padding: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.letters{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.letters p{
+    display: flex;
+    align-items: center;
+    width: calc(50% - 70px);
+    background-color: #ffff;
+    padding: 2rem;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
